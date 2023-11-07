@@ -1,0 +1,46 @@
+body {
+  background-color: #fff7dc;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  max-height: 10em;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  background-color: #3a3a3a;
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  gap: 2rem;
+}
+
+#header * {
+  color: #fff7dc;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+#contact-info {
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+#desc {
+  padding: 2rem;
+}
